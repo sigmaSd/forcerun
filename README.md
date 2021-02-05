@@ -1,2 +1,2 @@
 # ForceRun
-Try to run linux executables with old libraries runtime dependencies
+Try to run linux executables that require old libraries as runtime dependencies
