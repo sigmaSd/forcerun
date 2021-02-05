@@ -17,6 +17,8 @@ fn main() {
             if let Some(root_lib) = root_lib {
                 let (_root_name, root_path) = root_lib;
                 sym(&root_path, &path.join(lib_name));
+            } else {
+                eprintln!("Could not find a system lib for the missing: {}", lib_name);
             }
         });
 
